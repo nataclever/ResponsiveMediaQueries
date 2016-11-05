@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+}
+body {
+    max-width: 900px;
+    margin: 0 auto;
+}
+header {
+ 
+    background-color: rgba(128, 128, 128, 0.11);
+    padding: 10px;
+    overflow: auto;
+    width: 881px;
+    height: 150px;
+    font-family: monospace;
+    font-size: 96px;
+    text-align: right;
+    text-indent: 100px;
+    color: white;
+    margin-bottom: 0px; 
+    margin-left: 0px; 
+    margin-right: 0px; 
+    margin-top: 10px;
+    vertical-align: bottom;
+}
+aside {
+    height: 500px;
+}
+aside#left {
+     background-color: red;
+}
+aside#right {
+    background-color: green;
+}
+article {
+    background-color: grey;
+    height: 200px;
+}
+footer {
+    background-color: yellow;
+    height: 200px;
+}
