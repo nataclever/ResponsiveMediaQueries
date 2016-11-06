@@ -2,15 +2,15 @@
     margin: 0;
 }
 body {
-    max-width: 900px;
+    max-width: 910px;
     margin: 0 auto;
 }
 header {
  
     background-color: rgba(128, 128, 128, 0.11);
-    padding: 10px;
+    padding: 0px;
     overflow: auto;
-    width: 881px;
+    width: 900px;
     height: 140px;
     font-family: Chonburi;
     font-size: 120px;
@@ -29,11 +29,13 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    width: 900px;
 }
 
 li {
     float: right;
     font-family: Quicksand;
+    
 }
 
 li a, .dropbtn {
@@ -72,14 +74,27 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
     display: block;
-
-P {
+}
+    p {
+        position: relative;
     display: flex;
+    font-family: Quicksand;    
+    margin-left: 0px; 
+    margin-right: 0px; 
+    margin-top: 10px;
     text-align: left;
-    font-family: Quicksand;
-}
+    font-size: 22px;
     
+    }
+    figure {
+    background-image: url(image/plane.jpg);
+    height: 150px;
+    width: 150px;
+    text-align: right;
+    font-family: Quicksand;
+    position: inline-block;
 }
+
 aside {
     height: 500px;
 }
@@ -87,21 +102,33 @@ aside#left {
      background-color: gray;
 }
 aside#right {
-    background-color: green;
-}
-article {
-    background-image: url(image/plane.jpg);
-    height: 500px;
-    opacity: 0.5;
-    filter: alpha(opacity=50);
-    font-family: Quicksand;
-}
-img {
-    width: 900px;
-    height: 500px;
+    background-color: url(img/it.jpg);
+    height: 300px;
+    width: 300px;
     
+}
+
+img { 
+    
+        height: 500px;
+    width: 900px;
+    opacity: 0.7;
+}
+    h1 {
+        background-color: rgba(128, 128, 128, 0.11);
+        font-style: white;
+        font-size: 40px;
+        color: white;
+}
+   
 }
 footer {
     background-color: yellow;
     height: 200px;
+    text-decoration: none;
+    font-family: Quicksand;
+    padding-bottom: 40px;
+}
+    
+    
 }

@@ -1,0 +1,12 @@
+    body {
+    max-width: 910px;
+    margin: 0 auto;
+}
+    h1 {
+        background-color: white;
+        font-style: white;
+        font-size: 90px;
+        padding: 0 auto;
+        margin: 0;
+        text-align: right;
+}
