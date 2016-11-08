@@ -4,6 +4,8 @@
 body {
     max-width: 910px;
     margin: 0 auto;
+  background-color: white;
+
 
 }
 header {
@@ -75,8 +77,12 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-    p {
+    .plane {
         position: relative;
+        background-image: url(img/plane.jpg);
+        backgrond-attacment: fixed; 
+    }
+        
     display: flex;
     font-family: Quicksand;    
     margin-left: 0px; 
@@ -86,6 +92,7 @@ li.dropdown {
     font-size: 22px;
     
     }
+
     figure {
     background-image: url(image/plane.jpg);
     height: 150px;
@@ -95,44 +102,20 @@ li.dropdown {
     list-style-type: inline-block;
 }
 
-aside {
-    height: 500px;
-    
-}
-aside#left {
-     background-color: white;
-     position: fixed;margin-bottom: 100px;
-     
-}
-aside#right {
-    background-color: url(img/it.jpg);
-    height: 100px;
-    width: 200px;
-    position: relative;
-}
+ .box1   { 
+     display: inline-block;
+margin: 20px 40px 20px 40px;
+          position: static;
+          
+ }
 
-img#left { 
-    
-     height: 150px;
-    width: 150px;
-    opacity: 0.7;
-}
- .box1   { width: 150px;
-  margin: -20px auto;
-          box-sizing: border-box; }
-
-  .box2 {width: 150px;
-  margin: 20px auto;
-  padding: 50px;
-  border-width: 10px;}
+  .box2 { display: inline-block;
+margin: 20px 40px 20px 0px;
+      position: static;
+  }
   
-img#right { 
-    
-     height: 150px;
-    width: 150px;
-    opacity: 0.7;
-    position: abs
-}
+  
+
 
     h1 {
         background-color: rgba(128, 128, 128, 0.11);
@@ -141,16 +124,14 @@ img#right {
         color: white;
 }
    
-}
 footer {
-    background-color: yellow;
-    height: 0px;
-    text-decoration: none;
+    background-color: rgba(128, 128, 128, 0.11)
+    height: 100px;
     font-family: Quicksand;
-    padding-bottom: 0px;
-    position: relative;
-    display: inline-table;
+    font-size: 24px;
+    padding: 10px 20px 10px 20px;
+    margin: 10px 20px 10px 20px;
+
 }
     
     
-}
